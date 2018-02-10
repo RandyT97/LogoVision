@@ -16,7 +16,7 @@ import retrofit2.Response;
  * Created by Randy on 2/9/18.
  */
 
-public class APIRequests {
+public class YelpLibrary {
     YelpFusionApi yelpClient;
 
     //Should run upon application launch
