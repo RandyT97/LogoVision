@@ -6,14 +6,26 @@
     android:layout_height="match_parent"
     tools:context="irmaoverflow.logovision.MainActivity">
 
+
+
     <Button
-        android:id="@+id/test_butt"
+        android:id="@+id/cap_but"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="xd"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="263dp"
-        android:onClick="onClick" />
+        android:text="Take Photo"
+        android:onClick="Capture_Photo"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="328dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="246dp"
+        android:layout_height="185dp"
+        android:src="@android:drawable/ic_menu_camera"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="36dp"
+        tools:ignore="MissingConstraints" />
 
 
 </android.support.constraint.ConstraintLayout>
